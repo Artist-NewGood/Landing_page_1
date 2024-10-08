@@ -42,7 +42,7 @@ header {
 
 nav {
     display: flex;
-    width: 1200px;
+    width: 1180px;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -126,7 +126,6 @@ main {
 
 }
 
-
 .main-text-information > h2 {
     color: var(--Neutral-D_Grey);
     font-family: "Inter", sans-serif;
@@ -138,7 +137,6 @@ main {
 
 .main-text-information > h2 > span {
     color: var(--Brand-Primary);
-
     
 }
 
@@ -170,6 +168,7 @@ main {
 .our-proposals-information,
 .our-proposals-info-text {
     flex-direction: column;
+
 }
 
 .our-client-information,
@@ -218,6 +217,9 @@ main {
 }
 
 .our-proposals-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(289px, 1fr)); 
+    max-width: 1200px;
     gap: 127px;
 
 }
@@ -264,7 +266,6 @@ main {
 
 .unseen-spending-information {
     gap: 50px;
-    margin-right: 57px;
 
 }
 
@@ -339,7 +340,6 @@ main {
 .our-statistics-information {
    gap: 40px;
    flex-direction: column;
-   height: 60px;
    justify-content: center;
 
 }
@@ -388,7 +388,6 @@ main {
 .design-your-site-information {
     margin-top: 48px;
     gap: 40px;
-    margin-right: 60px;
 
 }
 
@@ -403,6 +402,8 @@ main {
     flex-direction: column;
     width: 601px;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -560,6 +561,10 @@ main {
 
 .marketing-cards {
     gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+    max-width: 1200px;
+
 }
 
 .marketing-card {
@@ -653,7 +658,6 @@ footer {
     justify-content: center;
     align-items: center;
     background: var(--Neutral-Black);
-    height: 400px;
     width: 100%;
     padding: 64px 0;
     gap: 125px;
@@ -757,7 +761,6 @@ footer {
 
 .subscribe-link {
     border-radius: 8px;
-    /* opacity: 0.2; */
     background-color: var(--Neutral-Grey);
     padding: 10px 12px;
     justify-content: space-between;

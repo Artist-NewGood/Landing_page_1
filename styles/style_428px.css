@@ -1,0 +1,248 @@
+@media screen and (max-width: 428px) {
+    nav {
+        width: 90vw;
+        
+    }
+    
+    main {
+        gap: initial
+
+    }
+
+    .main-illustration{
+        display: none;
+
+    }
+
+    .our-client-logo {
+        width: 90vw;
+        justify-content: space-between;
+        gap: 10px;
+
+    }
+
+    .our-proposals-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    
+    }
+
+    .main-text-information {
+        width: 70vw;
+        text-align: center;
+
+    }
+
+    .main-information {
+        align-items: center;
+
+    }
+
+    .marketing-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 120px;
+
+    }
+
+    .all-customers-information-text {
+        max-width:100%;
+
+    }
+
+    .customers-infotmarion {
+        flex-direction: column;
+        gap: 40px;
+
+    }
+
+    .our-statistics-text {
+        width: 90vw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 100px;
+        box-sizing: border-box;
+        gap: 40px;
+
+    }
+
+    .logo-socials-elements {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .footer-links {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .design-site-header-text {
+        width: 100%;
+
+    }
+
+    .our-statistics {
+        flex-direction: column;
+
+    }
+
+    .unseen-spending-information {
+        flex-direction: column;
+
+    }
+
+    .navigation {
+        display: none;
+
+    }
+
+    .design-your-site-information {
+        flex-direction: column;
+
+    }
+
+    .design-site-header {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .design-site-header-text > h4 {
+        width: 70%;
+        text-align: center;
+
+    }
+
+    .all-customers-information-text > span:first-child {
+        text-align: center;
+
+    }
+
+    .demo > h2 {
+        font-size: 42px;
+        width:90vw;
+
+    }
+
+    .all-customers-information-text {
+        width: 70vw;
+        text-align: center;
+
+    }
+
+    .customers-container {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .footer-company-links > h4, .footer-support-links > h4, .footer-subscribe > h4 {
+        text-align: center;
+
+    }
+
+    .footer-company-link > span, .footer-support-link > span {
+        text-align: center;
+
+    }
+
+    .all-rights-reserved {
+        text-align: center;
+
+    }
+
+    .our-statistics-text > h3,
+    .unseen-spending-information-text > h3 {
+        text-align: center;
+        width: 70vw;
+        
+    }
+
+    .design-site-header-text > h3 {
+        text-align: center;
+        width: 70vw;
+
+    }
+
+    .unseen-spending-information > img,
+    .design-your-site-information > img ,
+    .customers-infotmarion > img {
+        display: none;
+
+    }
+
+    .new-marketing-information-text,
+    .unseen-spending-information-text,
+    .our-proposals-info-text > h4 {
+        width: 70vw;
+
+    }
+
+    .customers-image {
+        display: none;
+
+    }
+
+    .our-statistics-information-first-line, .our-statistics-information-second-line {
+        flex-direction: column;
+
+    }
+
+    .main-text-information > h2 {
+        font-size: 42px;
+        line-height: 50px;
+
+    }
+
+    .marketing-card > img {
+        display: none;
+
+    }
+
+    .new-marketing-information-text {
+        padding-bottom: 100px;
+
+    }
+
+    .our-client-info-text > h5 {
+        text-align: center;
+
+    }
+
+    .our-client-logo {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sign-up {
+        display: none;
+
+    }
+
+    .mobile-menu-icon{
+        display: flex;
+
+    }
+
+    .unseen-spending-information-text > h3,
+    .our-proposals-info-text > h4  {
+        font-size: 28px;
+        
+    }
+}
